@@ -4,15 +4,15 @@ OBJ = $(SRC:.c=.o)
 NAME = holberton
 RM = rm -f
 
-all : $(OBJ)
-	$(CC) $(OBJ) -o $(NAME)
+all: $(OBJ)
+	$(CC) $^ -o $(NAME)
 
-clean :
+clean:
 	$(RM) *~ $(NAME)
 
-oclean :
-	$(RM) $(OBJ)
+oclean:
+	$(RM) -f $(OBJ)
 
-fclean : clean oclean
+fclean: clean oclean
 
-re : oclean all
+re: all oclean
