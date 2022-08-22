@@ -8,9 +8,7 @@
 - All your files should end with a new line
 
 ## Task
-### Download folder
 
-[download the 0x1C-makefiles folder](https://calypsobronte.me/DownGit/#/home?url=https://github.com/calypsobronte/holbertonschool-low_level_programming/tree/master/0x1C-makefiles)
 
 we access the downloaded folder
 ```bash
@@ -20,9 +18,7 @@ Running mode of the files, follow the example below:
 
 #### 0. make -f 0-Makefile
 ```bash
-calypsobronte@ubuntu:~/0x1C-makefiles$ make -f 0-Makefile 
-gcc main.c holberton.c -o holberton
-calypsobronte@ubuntu:~/0x1C-makefiles$ ./holberton 
+
 j#0000000000000000000000000000000000000
 j#000000000000000000@Q**g00000000000000
 j#0000000000000000*]++]4000000000000000
